@@ -19,8 +19,8 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here a
 
-let lastItemRemoved = arr.pop()
-  console.log(arr)
+// let lastItemRemoved = arr.pop()
+//   console.log(arr)
 
 
 ////////// PROBLEM 3 //////////
@@ -34,6 +34,10 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+
+// for (let i = 0; i < family.length; i++){
+//   console.log(family[i])
+// }
 
 
 
@@ -50,6 +54,12 @@ let evensArr = []
 
 //Code Here
 
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i])
+  }
+}
+console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
