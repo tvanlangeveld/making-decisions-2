@@ -74,18 +74,18 @@ var score = 74
 
 //Code Here
 
-if (score >= 90){
-  console.log('A')
-} else if (score >= 80){
-  console.log('B')
-} else if (score >= 70){
-  console.log('C')}
-  else if (score >= 60){
-    console.log('D')
-  }
-  else{
-    console.log('F')
-  }
+// if (score >= 90){
+//   console.log('A')
+// } else if (score >= 80){
+//   console.log('B')
+// } else if (score >= 70){
+//   console.log('C')}
+//   else if (score >= 60){
+//     console.log('D')
+//   }
+//   else{
+//     console.log('F')
+//   }
 
 
 
@@ -103,6 +103,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+// let someNum = myFavoriteNumbers[4]
+
+
+
 
 ////////// PROBLEM 7 //////////
 
@@ -111,6 +115,12 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+// if (myFavoriteNumbers.length < 7) {
+//   console.log("There are not enough elements in this array")
+// } else {
+//   somenum = myFavoriteNumbers [6]
+// }
+  
 
 ////////// PROBLEM 8 //////////
 
@@ -123,6 +133,13 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //Code Here
 
 
+// for (let i = 0; i < listOfNumbers.length; i++){
+//   if (listOfNumbers[i] % 3 === 0) {
+//     console.log(`${listOfNumbers[i]} is divisible by 3.`)
+//   }
+// }
+
+
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
 var letters = ['A', 'B', 'C', 'D', 'E'];
@@ -133,6 +150,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+
+for(let i = letters.length - 1;i >= 0; i--){
+  console.log(letters[i])
+}
 
 
 ////////// Advanced Problems //////////
