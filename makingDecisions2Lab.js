@@ -52,14 +52,14 @@ let evensArr = []
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
 
-//Code Here
+//Code Here  dont understand how this code only took the even numbers 
 
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] % 2 === 0) {
-    evensArr.push(nums[i])
-  }
-}
-console.log(evensArr)
+// for (let i = 0; i < nums.length; i++) {
+//   if (nums[i] % 2 === 0) {  
+//     evensArr.push(nums[i])
+//   }
+// }
+// console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -73,6 +73,20 @@ var score = 74
 */
 
 //Code Here
+
+if (score >= 90){
+  console.log('A')
+} else if (score >= 80){
+  console.log('B')
+} else if (score >= 70){
+  console.log('C')}
+  else if (score >= 60){
+    console.log('D')
+  }
+  else{
+    console.log('F')
+  }
+
 
 
 ////////// Intermediate Problems //////////
